@@ -9,4 +9,8 @@ Estimating the Mutational Support and Distribution of SARS-Cov-2 in the Small Sa
 
 4. alignment.py performs the alignment for each case and mutation_counts.py returns mutation profiles for all the cases which is combined to form an aggregate mutation profile. This aggregate mutation profile is used in Distribution estimation and Support estimation. 
 
-5. 
+5. Distribution estimation using Good-Turing estimator can be performed as described here: http://crr.ugent.be/papers/A%20Python%20program%20to%20calculate%20the%20Good-Turing%20algorithm.pdf
+
+6. For Support estimation refer to the impementation at https://github.com/elichienxD/Support-estimation
+
+7. GenomeDiagram plots showing the distibution of mutations along the SARS-Cov-2 genome given in manuscript can be genrated using genomeD.py
