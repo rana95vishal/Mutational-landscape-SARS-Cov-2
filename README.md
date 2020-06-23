@@ -5,4 +5,8 @@ Estimating the Mutational Support and Distribution of SARS-Cov-2 in the Small Sa
 
 2. Sequence alignment has been performed using MUSCLE. The binary/executable file for the same can be downloaded from https://www.drive5.com/muscle/.
 
-3. The combined FASTA file for all patients needs to be split and and formatted to include the refernce sequence (Wuhan-1 or regional Patient 1). 
+3. The combined FASTA file for all patients needs to be split and and formatted to include the refernce sequence (Wuhan-1 or regional Patient 1). Script prep_files.py can be used to prepare the files for alignment. 
+
+4. alignment.py performs the alignment for each case.
+
+5. 
