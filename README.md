@@ -14,3 +14,5 @@ Estimating the Mutational Support and Distribution of SARS-Cov-2 in the Small Sa
 6. For Support estimation refer to the impementation at https://github.com/elichienxD/Support-estimation
 
 7. GenomeDiagram plots showing the distibution of mutations along the SARS-Cov-2 genome given in manuscript can be genrated using genomeD.py
+
+8. Patient 1 or reference sequence for different regions and the metadata associated with all the cases analyzed for the project can be found in the data folder.
