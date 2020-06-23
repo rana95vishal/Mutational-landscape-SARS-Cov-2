@@ -7,6 +7,6 @@ Estimating the Mutational Support and Distribution of SARS-Cov-2 in the Small Sa
 
 3. The combined FASTA file for all patients needs to be split and and formatted to include the refernce sequence (Wuhan-1 or regional Patient 1). Script prep_files.py can be used to prepare the files for alignment. 
 
-4. alignment.py performs the alignment for each case.
+4. alignment.py performs the alignment for each case and mutation_counts.py returns mutation profiles for all the cases which is combined to form an aggregate mutation profile. This aggregate mutation profile is used in Distribution estimation and Support estimation. 
 
 5. 
